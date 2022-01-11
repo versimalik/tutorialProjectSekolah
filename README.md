@@ -19,9 +19,10 @@ ___
         
     !["Start Module apache dan MySQL pada XAMPP"!](images/image1.png)
 
-    
+
     * jika menggunakan ``apache2`` pada OS Linux, silahkan nyalakan service ``apache2`` dan ``mysqld``, contoh jika menggunakan OS linus turunan debian:
-    ```sh
+
+    ```console
     $ sudo service apache2 start && sudo service mysqld start
     ```
 
