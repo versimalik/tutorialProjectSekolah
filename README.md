@@ -16,7 +16,10 @@ ___
 # Langkah ke pertama
 1. Nyalakan module / service apache pada komputer anda
     * jika mengunnakan ``XAMPP`` windows, silahkan nyalakan module ``apache`` dan ``mysql`` pada ``XAMPP Control Panel``, seperti pada gambar:
+        
     !["Start Module apache dan MySQL pada XAMPP"!](images/image1.png)
+
+    
     * jika menggunakan ``apache2`` pada OS Linux, silahkan nyalakan service ``apache2`` dan ``mysqld``, contoh jika menggunakan OS linus turunan debian:
     ```sh
     $ sudo service apache2 start && sudo service mysqld start
