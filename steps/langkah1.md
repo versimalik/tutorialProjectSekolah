@@ -33,10 +33,13 @@
     * cari dan pilih folder `sekolah` yang ada di dalam `localhost` kita.
 5. Untuk kemudahan dalam proses "ngoding", silahkan gunakan tips berikut ini
     * Klik menu `View` > `Side Bar` > `Show Side Bar`, maka akan muncul folder project seperti pada gambar.
+    
     ![Side bar pada sublime text](/images/image2.png)
-    * Bikin file baru langsung dari folder project. Caranya **klik kanan** pada folder `sekola` yg ada di side bar, pilih `New File`, nanti akan terbuka file baru yang kosong seperti pada gambar.
+    * Bikin file baru langsung dari folder project. Caranya **klik kanan** pada folder `sekola` yg ada di side bar, pilih `New File`, akan terbuka file baru yang kosong seperti pada gambar.
+    
     ![New file dari folder pada sidebar](/images/image3.png)
     * Kemudan simpan dengan cara pilih menu `File` > `Save`, simpan dengan nama `index.php`. File tersebut akan otomatis tersimpan di folder `sekola` dalam `localhost`. Contoh seperti pada gambar.
+    
     ![index.php pada folder project](/images/image4.png)
 6. Buat syntax php sederhana dalam file `index.php`, seperti pada script di bawah ini:
 ```php
