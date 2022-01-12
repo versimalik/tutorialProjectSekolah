@@ -10,13 +10,13 @@
 
     * jika menggunakan ``apache2`` pada OS Linux, silahkan nyalakan service ``apache2`` dan ``mysqld``, contoh jika menggunakan OS Linux turunan debian:
 
-    ```console
+    ```bash
     sudo service apache2 start && sudo service mysqld start
     ```
 
     atau
 
-    ```console
+    ```bash
     sudo systemctl start apache2 && sudo systemctl start mysql
     ```
 2. Buka aplikasi web browser dan ketikkan `localhost` pada address bar dan tekan tombol `Enter`  untuk memastikan bahwa web server sudah berjalan dengan baik.

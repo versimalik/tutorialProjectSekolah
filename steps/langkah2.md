@@ -80,4 +80,4 @@ Pada tahap ini, kita sudah memahami desain database merupakan hal yang penting s
 * Siapa dan apa saja yang terlibat dalam aplikasi yang akan kita buat.
 * Aktivitas apa saja yang dapat dilakukan dalam aplikasi ini.
 
-### [Lanjut ke Langkah ketiga - Membuat database baru melalui CLI (Command Line Interface)](/steps/langka3.md)
+### [Lanjut ke Langkah ketiga - Membuat database baru melalui CLI (Command Line Interface)](/steps/langkah3.md)
