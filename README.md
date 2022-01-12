@@ -19,6 +19,9 @@ ___
 
 ## Daftar isi
 
-1. ["Langkah pertama - Menyiapkan semua tools untuk memulai web programming"](/steps/langkah1.md) 
+1. [Langkah pertama - Menyiapkan semua tools untuk memulai web programming](/steps/langkah1.md)
+2. [Langkah kedua - Membuat rancangan database untuk aplikasi](/steps/langkah2.md)
+3. [Lanjut ke Langkah ketiga - Membuat database baru melalui CLI (Command Line Interface)](/steps/langka3.md)
+4. Langkah keempat - segera
 
 
