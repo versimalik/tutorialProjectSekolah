@@ -2,9 +2,9 @@
 
 Tutorial ini dibuat dengan tujuan untuk mempelajari pembuatan aplikasi berbasis web secara sederhana.
 
-Dalam tutorial ini kita akan menggunakan bahasa pemrograman `PHP`, database `MySQL` sebagai backend-nya. Untuk frontend, kita akan menggunakan `HTML`, `CSS` dan `Javascript`.
+Dalam tutorial ini kita akan menggunakan bahasa pemrograman `PHP` dan database `MySQL` sebagai backend-nya. Untuk frontend, kita akan menggunakan `HTML`, `CSS` dan `Javascript`.
 
-Langkah - langkah yang ada merupakan tahapan - tahapan sederhana yang bertujuan agar tutorial ini ringan untuk dibaca serta mempelajari pemrograman sambil membuat aplikasi sederhana.
+Langkah - langkah yang ada merupakan tahapan - tahapan sederhana yang bertujuan agar tutorial ini ringan untuk dibaca serta dapat mempelajari pemrograman sambil membuat aplikasi sederhana.
 
 ## Yang dibutuhkan
 1. Aplikasi Web Server
