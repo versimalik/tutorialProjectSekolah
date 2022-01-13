@@ -75,4 +75,4 @@ Pada tahap ini, kita sudah memahami jika membuat database baru bisa menggunakan 
 * Login ke dalam server `mysql`
 * Masukkan syntax `CREATE DATABASE nama_databse`, untuk membuat database baru
 
-### [Lanjut ke Langkah keempat - Membuat Tabel admin, guru, kelas, siswa dan distKelas](/steps/langkah4.md)
+### [Lanjut ke Langkah keempat - Membuat table admin, guru, siswa, kelas dan distKelas](/steps/langkah4.md)
