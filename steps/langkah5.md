@@ -17,7 +17,7 @@ Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), 
 |7|dibuatOleh|VARCHAR(10)|agar terlacak siapa yg membuat data `materi` baru, Tidak boleh kosong|
 |8|tglDibuat|DATETIME|agar terlacak kapan data `materi` baru dibuat, Tidak boleh kosong|
 
-Syntax untuk membuat table `admin` adalah 
+Syntax untuk membuat table `materi` adalah 
 ```sql
 CREATE TABLE materi(
     id INT(10) NOT NULL,

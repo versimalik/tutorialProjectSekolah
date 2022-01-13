@@ -1,15 +1,16 @@
-# Tutorial Membuat Aplikasi Sekolah Sederhana
+# Tutorial Membuat Aplikasi Sekola 
+> Sekola adalah nama aplikasi classroom management sederhana yang akan kita buat dalam tutorial ini.
 
 Tutorial ini dibuat dengan tujuan untuk mempelajari pembuatan aplikasi berbasis web secara sederhana.
 
 Dalam tutorial ini kita akan menggunakan bahasa pemrograman `PHP` dan database `MySQL` sebagai backend-nya. Untuk frontend, kita akan menggunakan `HTML`, `CSS` dan `Javascript`.
 
-Langkah - langkah yang ada merupakan tahapan - tahapan sederhana yang bertujuan agar tutorial ini ringan untuk dibaca serta dapat mempelajari pemrograman sambil membuat aplikasi sederhana.
+Langkah - langkah yang ada merupakan tahapan - tahapan sederhana yang bertujuan agar tutorial ini ringan untuk dibaca serta dapat mempelajari pemrograman sambil praktik membuat aplikasi.
 
 ## Yang dibutuhkan
-1. Aplikasi Web Server
-    - jika menggunakan windows, silahkan install [XAMPP](https://www.apachefriends.org/download.html) versi 7 ke atas.
-    - jika menggunakan linux, silahkan install package ``apache2`` melalui terminal
+1. Aplikasi Web Server dan Database Server
+    - jika menggunakan windows, silahkan install [XAMPP](https://www.apachefriends.org/download.html) versi 7 ke atas. Dalam XAMPP sudah tersedia web server `apache`, database server `mysql` dan compiler bahasa pemrograman `php`.
+    - jika menggunakan linux, silahkan install package `apache2`, `php7.x` dan `mariadb-server` melalui terminal.
 2. Aplikasi web browser, seperti [Google Chrome](https://www.google.com/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/), dan sejenisnya.
 3. Aplikasi text editor, seperti [Sublime Text](https://www.sublimetext.com/download), [Visual Code Studio](https://code.visualstudio.com/download), dan sebagainya.
 
@@ -26,5 +27,6 @@ ___
 5. [Langkah kelima - Membuat table materi, tugas, posting, jawaban dan komentar](/steps/langkah5.md)
 6. [Langkah keenam - Membuat table users](/steps/langkah6.md)
 7. [Langkah ketujuh - Membuat relasi antar table (admin ke users, guru ke users, dan siswa ke users)](/steps/langkah7.md)
+8. Langkah kedelapan - Segera
 
 

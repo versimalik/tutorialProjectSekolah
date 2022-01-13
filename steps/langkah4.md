@@ -20,6 +20,14 @@ CREATE TABLE nama_table(
     PRIMARY KEY(field_ke_1)
 );
 ```
+Keterangan:
+|||
+|-|-|
+|`nama_table`|merupakan nama table yang ingin dibuat|
+|`field_ke_?`|merupakan nama field dalam table|
+|`data_type_ke_?`|merupakan tipe data dari field|
+|`PRIMARY KEY(field_ke_?)`|menentukan field mana yang akan dijadikan PRIMARY KEY|
+
 ## Membuat table admin
 Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table admin memiliki deskripsi sebagai berikut:
 
