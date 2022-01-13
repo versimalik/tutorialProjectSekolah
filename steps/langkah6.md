@@ -28,3 +28,5 @@ CREATE TABLE materi(
 Dari [Langkah ketiga](/steps/langkah3.md) sampai dengan langkah keenam, kita sudah bisa membuat database `sekola` dan table - table yang dibutuhkan sesuai dengan rancangan yang sudah dibuat.
 
 Database ini kita butuhkan sebagau sumber dan tempat menyimpan data dari aplikasi yan akan kita buat.
+
+### [Lanjut ke Langkah ketujuh - Membuat relasi antar table (admin ke users, guru ke users, dan siswa ke users)](/steps/langkah7.md)
