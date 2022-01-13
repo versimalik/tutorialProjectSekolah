@@ -23,9 +23,9 @@ CREATE TABLE nama_table(
 ## Membuat table admin
 Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table admin memiliki deskripsi sebagai berikut:
 
-||||Table: admin|
-|-|-|-|-|
+`Table: admin`
 |No|Field|Data Type|Keterangan|
+|-|-|-|-|
 |1|id|INT(10)| Primary Key dari table `admin`, Tidak boleh kosong|
 |2|nama|VARCHAR(20)|Tidak boleh kosong|
 |3|jk|INT(1)|Jenis kelamin, diwakili oleh angka `0 untuk perampuan` atau `1 untuk laki-laki`, Tidak boleh kosong|
@@ -59,9 +59,9 @@ CREATE TABLE admin(
 ## Membuat table guru
 Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table guru memiliki deskripsi sebagai berikut:
 
-||||Table: guru|
-|-|-|-|-|
+`Table: guru`
 |No|Field|Data Type|Keterangan|
+|-|-|-|-|
 |1|id|INT(10)| Primary Key dari table `guru`, Tidak boleh kosong|
 |2|nama|VARCHAR(20)|Tidak boleh kosong|
 |3|jk|INT(1)|Jenis kelamin, diwakili oleh angka `0 untuk perampuan` atau `1 untuk laki-laki`, Tidak boleh kosong|
@@ -95,9 +95,9 @@ CREATE TABLE guru(
 ## Membuat table siswa
 Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table siswa memiliki deskripsi sebagai berikut:
 
-||||Table: siswa|
-|-|-|-|-|
+`Table: siswa`
 |No|Field|Data Type|Keterangan|
+|-|-|-|-|
 |1|id|INT(10)| Primary Key dari table `siswa`, Tidak boleh kosong|
 |2|nama|VARCHAR(20)|Tidak boleh kosong|
 |3|jk|INT(1)|Jenis kelamin, diwakili oleh angka `0 untuk perampuan` atau `1 untuk laki-laki`, Tidak boleh kosong|
@@ -131,9 +131,9 @@ CREATE TABLE siswa(
 ## Membuat table kelas
 Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table kelas memiliki deskripsi sebagai berikut:
 
-||||Table: kelas|
-|-|-|-|-|
+`Table: kelas`
 |No|Field|Data Type|Keterangan|
+|-|-|-|-|
 |1|id|INT(10)| Primary Key dari table `siswa`, Tidak boleh kosong|
 |2|nama|VARCHAR(20)|Tidak boleh kosong|
 |3|deskripsi|TEXT|Tidak boleh kosong|
@@ -158,9 +158,10 @@ CREATE TABLE kelas(
 ## Membuat table distKelas
 Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table distKelas memiliki deskripsi sebagai berikut:
 
-||||Table: distKelas|
-|-|-|-|-|
+`Table: distKelas`
+
 |No|Field|Data Type|Keterangan|
+|-|-|-|-|
 |1|idKelas|INT(10)| Foreign Key dari table `kelas`, Tidak boleh kosong|
 |2|nisSiswa|INT(10)| Foreign Key dari table `siswa`, Tidak boleh kosong|
 
@@ -172,3 +173,4 @@ CREATE TABLE kelas(
 );
 ```
 
+### [Lanjut ke Langkah kelima - Membuat table materi, tugas, posting, jawaban dan komentar](/steps/langkah5.md)

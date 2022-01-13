@@ -23,6 +23,7 @@ ___
 2. [Langkah kedua - Membuat rancangan database untuk aplikasi](/steps/langkah2.md)
 3. [Langkah ketiga - Membuat database baru melalui CLI (Command Line Interface)](/steps/langkah3.md)
 4. [Langkah keempat - Membuat table admin, guru, siswa, kelas dan distKelas](/steps/langkah4.md)
-5. Langkah kelima - Segera
+5. [Langkah kelima - Membuat table materi, tugas, posting, jawaban dan komentar](/steps/langkah5.md)
+6. [Langkah keenam - Membuat table users](/steps/langkah6.md)
 
 
