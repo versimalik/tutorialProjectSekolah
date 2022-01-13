@@ -12,7 +12,7 @@ Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), 
 |-|-|-|-|
 |1|username|INT(10)| Primary Key dari table `users`, Tidak boleh kosong|
 |2|password|TEXT|Tidak boleh kosong|
-|3|role|VARCHAR(10)|Tidak boleh kosong|
+|3|role|VARCHAR(10)|Sebagai penanda jika username ini dimiliki oleh `admin`, `guru`, atau `siswa`, Tidak boleh kosong|
 
 Syntax untuk membuat table `admin` adalah 
 ```sql

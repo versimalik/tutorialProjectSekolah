@@ -3,7 +3,7 @@
 > Note: Mulai dari tahap ini sampai seterusnya, harus sudah mulai terbiasa dengan menyiapkan tools web programming seperti pada [Langkah pertama](/steps/langkah1.md) setiap kali ingin memulai ngoding.
 
 ## Membuka CLI (Command Line Interface)
-* Jika menggunakan OS Windows, buka aplikasi `Command Prompt` atau yg dikenal dengan sebutan `cmd`, dengan akses `Run As Admiinstrator`. Seperti pada gambar.
+* Jika menggunakan OS Windows, buka aplikasi `Command Prompt` atau yg dikenal dengan sebutan `cmd`, dengan akses `Run As Administrator`. Seperti pada gambar.
 
 ![cmd Run As Administrator!](/images/image7.png);
 * Jika menggunakan OS Linux, buka aplikasi `terminal`.
