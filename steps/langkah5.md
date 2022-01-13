@@ -2,8 +2,8 @@
 
 > Note: Pastikan sudah login ke `mysql` seperti yang sudah dijelaskan pada [Langkah ketiga](/steps/langkah3.md) dan sudah masuk ke database `sekola` seperti tahap awal pada [Langkah keempat](/steps/langkah4.md).
 
-## Membuat table admin
-Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table `tugas` memiliki deskripsi sebagai berikut:
+## Membuat table materi
+Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table `materi` memiliki deskripsi sebagai berikut:
 
 `Table: materi`
 |No|Field|Data Type|Keterangan|
