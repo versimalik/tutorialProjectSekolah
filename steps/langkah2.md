@@ -2,7 +2,7 @@
 
 Sebuah aplikasi, tidak bisa dikerjakan tanpa adanya perencanaan dan perancangan.
 
-Menurut pengalaman kami, yang menjadi nyawa dari sebuah aplikasi web binamis adalah `database`.
+Menurut pengalaman kami, yang menjadi nyawa dari sebuah aplikasi web dinamis adalah `database`.
 
 `Database` merupakan kumpulan data yang terorganisir, yang umumnya disimpan dan diakses secara elektronik dari suatu sistem komputer. Sumber: [Wikipedia](https://id.wikipedia.org/wiki/Pangkalan_data).
 
