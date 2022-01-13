@@ -22,7 +22,7 @@ ___
 1. [Langkah pertama - Menyiapkan semua tools untuk memulai web programming](/steps/langkah1.md)
 2. [Langkah kedua - Membuat rancangan database untuk aplikasi](/steps/langkah2.md)
 3. [Langkah ketiga - Membuat database baru melalui CLI (Command Line Interface)](/steps/langkah3.md)
-4. [Langkah keempat - Membuat Tabel admin, guru, kelas, siswa dan distKelas](/steps/langkah4.md)
+4. [Langkah keempat - Membuat table admin, guru, siswa, kelas dan distKelas](/steps/langkah4.md)
 5. Langkah kelima - Segera
 
 
