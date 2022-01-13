@@ -106,7 +106,7 @@ Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), 
 
 Syntax untuk membuat table `jawaban` adalah 
 ```sql
-CREATE TABLE tugas(
+CREATE TABLE jawaban(
     id INT(10) NOT NULL,
     teks TEXT NOT NULL,
     lampiran TEXT,
