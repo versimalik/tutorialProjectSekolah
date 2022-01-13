@@ -23,7 +23,7 @@ CREATE TABLE nama_table(
 ## Membuat table admin
 Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table admin memiliki deskripsi sebagai berikut:
 
-||||Table: admin|
+|>|>|>|Table: admin|
 |-|-|-|-|
 |No|Field|Data Type|Keterangan|
 |1|id|INT(10)| Primary Key dari table `admin`, Tidak boleh kosong|
