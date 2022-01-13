@@ -5,7 +5,7 @@
 > [Langkah ketiga](/steps/langkah3.md) sampai dengan langkah keenam, merupakan satu rangkaian pembuatan database `sekola`. Disarankan untuk tetap ikuti urutan langkahnya.
 
 ## Membuat table admin
-Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table `tugas` memiliki deskripsi sebagai berikut:
+Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table `users` memiliki deskripsi sebagai berikut:
 
 `Table: users`
 |No|Field|Data Type|Keterangan|
