@@ -25,6 +25,6 @@ ___
 4. [Langkah keempat - Membuat table admin, guru, siswa, kelas dan distKelas](/steps/langkah4.md)
 5. [Langkah kelima - Membuat table materi, tugas, posting, jawaban dan komentar](/steps/langkah5.md)
 6. [Langkah keenam - Membuat table users](/steps/langkah6.md)
-7. Langkah ketujuh - Segera
+7. [Langkah ketujuh - Membuat relasi antar table (admin ke users, guru ke users, dan siswa ke users)](/steps/langkah7.md)
 
 

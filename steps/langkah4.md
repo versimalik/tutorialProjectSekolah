@@ -165,9 +165,9 @@ Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), 
 |1|idKelas|INT(10)| Foreign Key dari table `kelas`, Tidak boleh kosong|
 |2|nisSiswa|INT(10)| Foreign Key dari table `siswa`, Tidak boleh kosong|
 
-Syntax untuk membuat table `kelas` adalah
+Syntax untuk membuat table `distKelas` adalah
 ```sql
-CREATE TABLE kelas(
+CREATE TABLE distKelas(
     idKelas INT(10) NOT NULL,
     idSiswa INT(10) NOT NULL
 );
