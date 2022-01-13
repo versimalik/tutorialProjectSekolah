@@ -16,7 +16,7 @@ Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), 
 
 Syntax untuk membuat table `admin` adalah 
 ```sql
-CREATE TABLE materi(
+CREATE TABLE users(
     username VARCHAR(10) NOT NULL,
     password TEXT NOT NULL,
     role VARCHAR(10) NOT NULL,
