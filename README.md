@@ -26,7 +26,8 @@ ___
 4. [Langkah keempat - Membuat table admin, guru, siswa, kelas dan distKelas](/steps/langkah4.md)
 5. [Langkah kelima - Membuat table materi, tugas, posting, jawaban dan komentar](/steps/langkah5.md)
 6. [Langkah keenam - Membuat table users](/steps/langkah6.md)
-7. [Langkah ketujuh - Membuat relasi antar table (admin ke users, guru ke users, dan siswa ke users)](/steps/langkah7.md)
-8. Langkah kedelapan - Segera
+7. [Langkah ketujuh - Relasi antar table dan penerapan foreign key](/steps/langkah7.md)
+8. [Langkah kedelapan - SQL Constraint untuk mengatur rule pada column](/steps/langkah8.md)
+9. Langkah kesembilan - Segera
 
 
