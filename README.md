@@ -28,6 +28,7 @@ ___
 6. [Langkah keenam - Membuat table users](/steps/langkah6.md)
 7. [Langkah ketujuh - Relasi antar table dan penerapan foreign key](/steps/langkah7.md)
 8. [Langkah kedelapan - SQL Constraint untuk mengatur rule pada column](/steps/langkah8.md)
-9. [Langkah kesembilan - Menambahkan foreign key pada column dalam tabel admin, guru dan siswa](/steps/langkah9.md)
-10. Langkah kesepuluh - Segera
+9. [Langkah kesembilan - Menambahkan constraint foreign key pada column dalam tabel admin, guru dan siswa](/steps/langkah9.md)
+10. [Langkah kesepuluh - Menambahkan constraint foreign key pada column dalam tabel kelas dan distKelas](/steps/langkah10.md)
+11. [Langkah kesebelas - Menambahkan constraint foreign key pada column dalam tabel materi, tugas dan posting](/steps/langkah11.md)
 
