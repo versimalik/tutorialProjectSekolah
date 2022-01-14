@@ -29,4 +29,4 @@ Dari [Langkah ketiga](/steps/langkah3.md) sampai dengan langkah keenam, kita sud
 
 Database ini kita butuhkan sebagau sumber dan tempat menyimpan data dari aplikasi yan akan kita buat.
 
-### [Lanjut ke Langkah ketujuh - Membuat relasi antar table (admin ke users, guru ke users, dan siswa ke users)](/steps/langkah7.md)
+### [Lanjut ke Langkah ketujuh - Relasi antar table dan penerapan foreign key](/steps/langkah7.md)

@@ -12,11 +12,11 @@ USE sekola;
 ## Format syntax membuat table baru dalam database
 ```sql
 CREATE TABLE nama_table(
-    field_ke_1 data_type_ke_1 NOT NULL,
-    field_ke_2 data_type_ke_2,
-    field_ke_3 data_type_ke_3 NOT NULL,
+    field_ke_1 data_type_ke_1 constraint,
+    field_ke_2 data_type_ke_2 constraint,
+    field_ke_3 data_type_ke_3 constraint,
     . . . .
-    field_ke_n data_type_ke_n,
+    field_ke_n data_type_ke_n constraint,
     PRIMARY KEY(field_ke_1)
 );
 ```
@@ -27,6 +27,7 @@ Keterangan:
 |`field_ke_?`|merupakan nama field dalam table|
 |`data_type_ke_?`|merupakan tipe data dari field|
 |`PRIMARY KEY(field_ke_?)`|menentukan field mana yang akan dijadikan PRIMARY KEY|
+|`constraint`|untuk mengatur rule pada data atau table, contoh mengatur agar field boleh kosong atau tidak boleh kosong|
 
 ## Membuat table admin
 Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), table admin memiliki deskripsi sebagai berikut:
