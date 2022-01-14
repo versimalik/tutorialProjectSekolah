@@ -30,7 +30,7 @@
     >> `/var/www/html/` = `localhost` pada linux
 4. Buka aplikasi text editor. Sebagai contoh, disini saya akan menggunakan aplikasi `Sublime Text`.
     * klik menu `File` > `Open Folder`
-    * cari dan pilih folder `sekolah` yang ada di dalam `localhost` kita.
+    * cari dan pilih folder `sekola` yang ada di dalam `localhost` kita.
 5. Untuk kemudahan dalam proses "ngoding", silahkan gunakan tips berikut ini
     * Klik menu `View` > `Side Bar` > `Show Side Bar`, maka akan muncul folder project seperti pada gambar.
     
