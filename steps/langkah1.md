@@ -47,13 +47,13 @@
     echo "Ini adalah bahasa pemrograman PHP";
 ?>
 ``` 
-7. Akses website pertama kita dari web browser, dengan mengetikkan format `localhost/[nama_folder_project]` pada address bar. Dalam kasus ini maka kita akan mengetikkan
+7. Akses website pertama kita dari web browser, dengan mengetikkan format `localhost/nama_folder_project` pada address bar. Dalam kasus ini maka kita akan mengetikkan
 ```url
 localhost/sekola/
 ```
 karena
 ```
-[nama_folder_project] = sekola
+nama_folder_project = sekola
 ```
 seperti pada gambar berikut
 

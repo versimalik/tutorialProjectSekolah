@@ -42,8 +42,8 @@ ON DELETE CASDACE
 |column_table_child|nama column yang ingin kita jadikan foreign key|
 |table_parent|`table` yang dijadikan `parent`|
 |column_table_parent|column yang menjadi data sumber untuk foreign key|
-|ON UPDATE|jika nilai column pada table parent diupdate, maka:<br/><br/>`NO ACTION`: nilai column `foreign key` pada table child akan dibiarkan<br/>`CASCADE`: nilai column `foreign key` pada table child akan diupdate juga<br/>`SET NULL`: nilai column `foreign key` pada table child akan dijadikan `NULL`<br/>`SET DEFAULT`: nilai column `foreign key` pada table child akan diset menjadi nilai default column tersebut|
-|ON UPDATE|jika nilai column pada table parent dihapus, maka:<br/><br/>`NO ACTION`: nilai column `foreign key` pada table child akan dibiarkan<br/>`CASCADE`: nilai column `foreign key` pada table child akan dihapus juga<br/>`SET NULL`: nilai column `foreign key` pada table child akan dijadikan `NULL`<br/>`SET DEFAULT`: nilai column `foreign key` pada table child akan diset menjadi nilai default column tersebut|
+|ON UPDATE|jika nilai column pada table parent diupdate, maka:<br/><br/>`NO ACTION`: nilai column `foreign key` pada table child akan dibiarkan<br/>`CASCADE`: nilai column `foreign key` pada table child akan diupdate juga<br/>`SET NULL`: nilai column `foreign key` pada table child akan dijadikan `NULL`<br/>`RESTRICT`: proses tersebut akan ditolak selama masih memiliki relasi dengan column pada table `child`|
+|ON UPDATE|jika nilai column pada table parent dihapus, maka:<br/><br/>`NO ACTION`: nilai column `foreign key` pada table child akan dibiarkan<br/>`CASCADE`: nilai column `foreign key` pada table child akan dihapus juga<br/>`SET NULL`: nilai column `foreign key` pada table child akan dijadikan `NULL`<br/>`RESTRICT`: proses tersebut akan ditolak selama masih memiliki relasi dengan column pada table `child`|
 
 
 ## Kesimpulan
@@ -51,4 +51,4 @@ Untuk merelasikan suatu table ke table lain, maka harus ditentukan table mana ya
 
 Setelah itu, kita akan menentukan column mana yang akan kita jadikan `FOREIGN KEY` pada table `child`, yang datanya bersumber dari `PRIMARY KEY` pada table `parent`.
 
-### [Lanjut ke Langkah kesembilan - Menambahkan foreign key pada column dalam tabel admin, guru dan siswa](/steps/langkah9.md)
+### [Lanjut ke Langkah kesembilan - Menambahkan constraint foreign key pada column dalam tabel admin, guru dan siswa](/steps/langkah9.md)
