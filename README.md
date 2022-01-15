@@ -31,4 +31,6 @@ ___
 9. [Langkah kesembilan - Menambahkan constraint foreign key pada column dalam tabel admin, guru dan siswa](/steps/langkah9.md)
 10. [Langkah kesepuluh - Menambahkan constraint foreign key pada column dalam tabel kelas dan distKelas](/steps/langkah10.md)
 11. [Langkah kesebelas - Menambahkan constraint foreign key pada column dalam tabel materi, tugas dan posting](/steps/langkah11.md)
+12. [Langkah keduabelas - Menambahkan constraint foreign key pada column dalam tabel jawaban dan komentar](/steps/langkah12.md)
+13.  Langkah ketigabelas - Segera
 
