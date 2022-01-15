@@ -107,7 +107,7 @@ Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), 
 `Table: siswa`
 |No|Field|Data Type|Keterangan|
 |-|-|-|-|
-|1|id|INT(10)| Primary Key dari table `siswa`, Tidak boleh kosong|
+|1|nis|INT(10)| Primary Key dari table `siswa`, Tidak boleh kosong|
 |2|nama|VARCHAR(20)|Tidak boleh kosong|
 |3|jk|INT(1)|Jenis kelamin, diwakili oleh angka `0 untuk perampuan` atau `1 untuk laki-laki`, Tidak boleh kosong|
 |4|agama|VARCHAR(10)|Tidak boleh kosong|
@@ -122,7 +122,7 @@ Sesuai dengan gambar desain database pada [Langkah ketiga](/steps/langkah3.md), 
 Syntax untuk membuat table `siswa` adalah 
 ```sql
 CREATE TABLE siswa(
-    id INT(10) NOT NULL,
+    nis INT(10) NOT NULL,
     nama VARCHAR(20) NOT NULL,
     jk INT(1) NOT NULL,
     agama VARCHAR(10) NOT NULL,
