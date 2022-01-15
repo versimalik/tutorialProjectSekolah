@@ -78,7 +78,7 @@ ON DELETE NO ACTION;
 ```
 Maka syntax SQL yang akan kita gunakan untuk No. 2 pada table `posting`
 ```sql
-ALTER TABLE poasting
+ALTER TABLE posting
 ADD CONSTRAINT fk_posting_dibuatOleh
 FOREIGN KEY(dibuatOleh)
 REFERENCES users(username)
