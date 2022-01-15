@@ -17,7 +17,6 @@ cd c:\xampp\mysql\bin\
 
 ```
 login ke MySQL
-langkah3.md).langkah3.md).
 ```cmd
 mysql.exe -u root -p
 
