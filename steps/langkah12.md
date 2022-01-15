@@ -81,12 +81,15 @@ ___
 Setelah semua table direlasikan, silahkan cek daftar foreign key yang sudah dibut dengan cara mengetikkan perintah ini
 ```sql
 SELECT 
-  TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
+  TABLE_NAME AS `Nama Table`,
+  COLUMN_NAME AS `Nama Kolom`,
+  CONSTRAINT_NAME AS `Nama Constraint`
+  REFERENCED_TABLE_NAME AS `Table Sumber`
+  REFERENCED_COLUMN_NAME AS `Kolom Sumber`
 FROM
   INFORMATION_SCHEMA.KEY_COLUMN_USAGE
 WHERE
-  REFERENCED_TABLE_SCHEMA = 'sekola' AND
-  REFERENCED_COLUMN_NAME = 'username';
+  REFERENCED_TABLE_SCHEMA = 'sekola';
 ```
 
 
