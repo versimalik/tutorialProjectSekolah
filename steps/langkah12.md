@@ -29,7 +29,7 @@ REFERENCES users(username)
 ON UPDATE CASCADE
 ON DELETE NO ACTION;
 ```
-
+___
 ## Foreign key pada table komentar
 
 ![Relasi antar table komentar, materi, tugas, posting dan users](/images/image19.png)
@@ -77,7 +77,7 @@ REFERENCES users(username)
 ON UPDATE CASCADE
 ON DELETE NO ACTION;
 ```
-
+___
 Setelah semua table direlasikan, silahkan cek daftar foreign key yang sudah dibut dengan cara mengetikkan perintah ini
 ```sql
 SELECT 
@@ -86,7 +86,6 @@ FROM
   INFORMATION_SCHEMA.KEY_COLUMN_USAGE
 WHERE
   REFERENCED_TABLE_SCHEMA = 'sekola' AND
-  REFERENCED_TABLE_NAME = 'users' AND
   REFERENCED_COLUMN_NAME = 'username';
 ```
 

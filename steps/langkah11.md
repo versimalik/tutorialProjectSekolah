@@ -29,7 +29,7 @@ REFERENCES users(username)
 ON UPDATE CASCADE
 ON DELETE NO ACTION;
 ```
-
+___
 ## Foreign key pada table tugas
 
 ![Relasi antar table tugas, kelas dan users](/images/image16.png)
@@ -57,7 +57,7 @@ REFERENCES users(username)
 ON UPDATE CASCADE
 ON DELETE NO ACTION;
 ```
-
+___
 ## Foreign key pada table posting
 
 ![Relasi antar table posting, kelas dan users](/images/image17.png)
