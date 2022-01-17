@@ -1,12 +1,10 @@
 <?php 
 require_once __DIR__.'/config/database.php';
 
-// die();
+
 //mengambil data users
 $slctUsers = "SELECT * FROM users";
 $rsltUsers = $dbConnect->query($slctUsers);
-
-
 
 if ($rsltUsers->num_rows == 0){ ?>
 	<h3>Selamat datang di aplikasi sekola!</h3>
@@ -31,10 +29,10 @@ if ($rsltUsers->num_rows == 0){ ?>
 				<td>Jenis Kelamin</td>
 				<td>:</td>
 				<td>
-					<input type="radio" name="jk" value="1">
+					<input type="radio" name="jk" value="1" required>
 					<label for="1">Laki-Laki</label>
 					<br>
-					<input type="radio" name="jk" value="0">
+					<input type="radio" name="jk" value="0" required>
 					<label for="0">Perempuan</label>
 				</td>
 			</tr>
@@ -95,10 +93,11 @@ if ($rsltUsers->num_rows == 0){ ?>
 	if (session_status()==2) {
 		$row = mysqli_fetch_assoc($rsltUsers);
 		session_start();
-		$usrname = $_SESSION['username'];
-		$uRole = $_SESSION['role'];
 
-		if ($uRole == 'admin') {
+		$_SESSION['username'] = $row['username'];
+		$_SESSION['role'] = $row['role']
+
+		if ($_SESSION['role'] == 'admin') {
 			header('location:admin/index.php');
 		}elseif ($uRole == 'guru') {
 			header('location:guru/index.php');
@@ -110,12 +109,12 @@ if ($rsltUsers->num_rows == 0){ ?>
 			<table>
 				<tr>
 					<td>
-						<input type="text" name="username" placeholder="Masukkan username">
+						<input type="text" name="username" placeholder="Masukkan username" required>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<input type="password" name="password" placeholder="Masukkan password">
+						<input type="password" name="password" placeholder="Masukkan password" required>
 					</td>
 				</tr>
 				<tr>
