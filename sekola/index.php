@@ -1,9 +1,12 @@
 <?php 
 require_once __DIR__.'/config/database.php';
 
+// die();
 //mengambil data users
 $slctUsers = "SELECT * FROM users";
 $rsltUsers = $dbConnect->query($slctUsers);
+
+
 
 if ($rsltUsers->num_rows == 0){ ?>
 	<h3>Selamat datang di aplikasi sekola!</h3>
@@ -88,4 +91,39 @@ if ($rsltUsers->num_rows == 0){ ?>
 			</tr>
 		</table>
 	</form>
+<?php } elseif ($rsltUsers->num_rows > 0) {
+	if (session_status()==2) {
+		$row = mysqli_fetch_assoc($rsltUsers);
+		session_start();
+		$usrname = $_SESSION['username'];
+		$uRole = $_SESSION['role'];
+
+		if ($uRole == 'admin') {
+			header('location:admin/index.php');
+		}elseif ($uRole == 'guru') {
+			header('location:guru/index.php');
+		}else{
+			header('location:siswa/index.php');
+		}
+	}else{ ?>
+		<form action="proses/login.php" method="post">
+			<table>
+				<tr>
+					<td>
+						<input type="text" name="username" placeholder="Masukkan username">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="password" name="password" placeholder="Masukkan password">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<input type="submit" name="login" value="login">
+					</td>
+				</tr>
+			</table>
+		</form>
+	<?php } ?>
 <?php } ?>
