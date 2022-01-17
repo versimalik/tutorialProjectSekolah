@@ -32,5 +32,6 @@ ___
 10. [Langkah kesepuluh - Menambahkan constraint foreign key pada column dalam tabel kelas dan distKelas](/steps/langkah10.md)
 11. [Langkah kesebelas - Menambahkan constraint foreign key pada column dalam tabel materi, tugas dan posting](/steps/langkah11.md)
 12. [Langkah keduabelas - Menambahkan constraint foreign key pada column dalam tabel jawaban dan komentar](/steps/langkah12.md)
-13.  Langkah ketigabelas - Segera
+13.  [Langkah ketigabelas - Prinsip dasar cara kerja website](/steps/langkah13.md)
+14. [Langkah keempatbelas - Membuat aplikasi dengan PHP sebagai backend](/steps/langkah14.md)
 

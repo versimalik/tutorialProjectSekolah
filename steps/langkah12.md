@@ -82,15 +82,18 @@ Setelah semua table direlasikan, silahkan cek daftar foreign key yang sudah dibu
 ```sql
 SELECT 
   TABLE_NAME AS `Nama Table`,
-  COLUMN_NAME AS `Nama Kolom`,
+  COLUMN_NAME AS `Nama Column`,
   CONSTRAINT_NAME AS `Nama Constraint`
   REFERENCED_TABLE_NAME AS `Table Sumber`
-  REFERENCED_COLUMN_NAME AS `Kolom Sumber`
+  REFERENCED_COLUMN_NAME AS `Column Sumber`
 FROM
   INFORMATION_SCHEMA.KEY_COLUMN_USAGE
 WHERE
   REFERENCED_TABLE_SCHEMA = 'sekola';
 ```
+## Kesimpulan
+Sampai dengan tahap ini, pembuatan database, pembuatan table, merelasikan table sampai dengan penambahan constraint foreign key, dianggap sudah selesai.
 
+Jangan ragu untuk membaca dan mempraktekkan ulang ke langkah sebelumnya, jika masih ada yang kurang dipahami.
 
-## Langkah ketigabelas - Segera
+### [Lanjut ke Langkah ketigabelas - Prinsip dasar cara kerja website](/steps/langkah13.md)
