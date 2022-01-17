@@ -95,7 +95,7 @@ if ($rsltUsers->num_rows == 0){ ?>
 		session_start();
 
 		$_SESSION['username'] = $row['username'];
-		$_SESSION['role'] = $row['role']
+		$_SESSION['role'] = $row['role'];
 
 		if ($_SESSION['role'] == 'admin') {
 			header('location:admin/index.php');
@@ -105,6 +105,7 @@ if ($rsltUsers->num_rows == 0){ ?>
 			header('location:siswa/index.php');
 		}
 	}else{ ?>
+		<?php session_start(); session_destroy(); ?>
 		<form action="proses/login.php" method="post">
 			<table>
 				<tr>
