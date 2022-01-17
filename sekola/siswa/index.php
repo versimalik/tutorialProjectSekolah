@@ -1,1 +1,0 @@
-<?php echo "ini adalah halaman siswa"; ?>
